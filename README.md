@@ -1,1 +1,55 @@
-# way-of-master-in-mongoose
+# Way of master in mongoose
+
+### Covered topics in Module 05
+- What is MongoDB? Why MongoDB?
+- MongoDB vs Traditional Databases
+    - RDBMS ---> MongoDB
+    - Database ---> Database
+    - Tables ---> Collections
+    - Rows ---> Documents
+    - Columns ---> Fields
+- Insert Document
+    - insert
+    - insertOne
+    - insertMany
+- Find Document
+    - find, findOne
+    - field filtering, project 
+        - project work with only find method
+        - feild filtering work with both find and fineOne
+- Query Operator
+    - $eq
+    - $neq
+    - $gt
+    - $lt
+    - $gte
+    - $lte
+    - $in
+    - $nin
+    - $and
+    - $or
+    - $exists
+    - $type
+    - $size
+    - $all
+    - $elemMatch
+    - $set
+    - $addToSet
+    - $push
+    - $unset
+    - $pop
+    - $pull
+    - $pullAll
+    - $inc 
+        - increments operator
+        - if we want to decrement we need to use this operator but minus(-) value that means $inc operator accept minus value also
+- For more details about mongodb query operators - https://www.mongodb.com/docs/manual/reference/operator/
+- implicit and conditon
+- implicit vs explicit
+- (.$) positional operator
+    - It ensure that update only first search value from the query
+    - It works more closely with array of object queries
+- Method
+    - sort()
+        - Ascending -> 1 (0 ---> 100)
+        - Descending -> -1 (100 --> 0)
