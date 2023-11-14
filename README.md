@@ -95,7 +95,7 @@
 - $lookup
     - By uisng lookup operator we can join two collection
 - $text
-    - text operator use for make text indexing
+    - text operator use for denote text index
 - $search
     - By using search operator we can search our text index property value
 - Embedding vs Referencing
