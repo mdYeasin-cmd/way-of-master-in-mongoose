@@ -53,3 +53,51 @@
     - sort()
         - Ascending -> 1 (0 ---> 100)
         - Descending -> -1 (100 --> 0)
+
+### Covered topics in Module 06
+- What is Aggregation?
+```javascript
+    db.collection.aggregate([
+        // stage-1
+        {} // pipeline
+        // stage-2
+        {} // pipeline
+        // stage-3
+        {} //pipeline
+    ]);
+```
+- $match
+    - regular find method = mongodb aggregation match operator
+- $project
+    - rgular field filtering or find project =  mongodb aggregation project operator
+- $addFields
+    - This operator doesn't modify orginal document. Just add property in pipeline environment.
+- $out
+    - Using this operator we create a new collection from pipeline environment and keep our new data on that collection.
+- $merge
+    - By using this operator we can modify orginal document.
+- $group
+    - Using this we can make group depend on property value. this have some accumulator operator - 
+        - $count
+        - $max
+        - $min
+        - $avg
+        - $sum
+        - $push
+- $unwind
+    - This operator spread the array in aggregation stage.
+- $bucket
+    - This makes special group depend on different boundaries.
+- $sort
+- $limit
+- $facet
+    - By using this we can made sub-pipelie, That mean we can create nested pipeline
+- $lookup
+    - By uisng lookup operator we can join two collection
+- $text
+    - text operator use for make text indexing
+- $search
+    - By using search operator we can search our text index property value
+- Embedding vs Referencing
+- COLLSCAN vs IXSCAN
+- createIndex(), removeIndex()
