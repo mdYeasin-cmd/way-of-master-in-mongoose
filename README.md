@@ -101,3 +101,26 @@
 - Embedding vs Referencing
 - COLLSCAN vs IXSCAN
 - createIndex(), removeIndex()
+
+### Covered topics in Module 07
+- What is NodeJs? A high level overview of NodeJs
+- NodeJs now support ESM module (version >= 14)
+- CommonJs vs ESM
+    - CommonJs
+        - require
+        - export, module.exports
+        - .js
+    - ESM
+        - import
+        - export default
+        - .mjs
+- Global scope --> Functional scope
+- File system module, synchronous vs asynchronous
+- NodeJs is make based on Unix operating system
+- Event driven architecture means - after completing an event a funtion will call for show that user. A listener always await for that function call.
+- Strean and Buffer
+- Create http server using NodeJs
+- Error Handling
+    - using try catch we can handle error in function scope
+    - By using error handler middleware we can handle error globally and it's handle code related error
+    - app.all() --> use for handle rotuing related error, which return 404 response
