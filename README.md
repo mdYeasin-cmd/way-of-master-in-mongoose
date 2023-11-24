@@ -143,3 +143,32 @@
   - Rules/Principle
     - DRY --> Don't Repeat Yourself
     - Fat Model/Thin Controller
+
+### Covered topics in Module 09
+
+- Introduction to validation
+- Vaidation in Mongoose
+  - Builtin validation
+  - Custom validation
+  - Third party validation library (Validator/Joi/Zod)
+- Unique propery in Mongoose make indexing so we can't make duplicate entry
+- How to do custom validation
+- "this" keyword is only available in regular function
+- DT --> Data Type
+- Joi, Zod are two powerful validation library
+- Zod can infer typescript type
+- Mongoose methods
+  - static method
+  - instance method
+- Mongoose middleware
+  - pre (In callback -> next) & post (In callback -> doc and next)
+  - There are 4 types of middleware in mongoose
+    - Documents Middleware
+    - Query Middleware
+    - Aggregation Middleware
+    - Model middleware
+- How to implement delete data in another way
+  - By using isDeleted property
+- Mongoose virtuals
+  - Virtuals used for show data which not exists in our database.
+  - It save our database storage.
